@@ -31,7 +31,7 @@ public class Human implements ActionListener {
 	public void launch() {
 		gui = new GUI();
 		timer = new Timer((int) (1000.0 / timeDelta), this);
-        timer.start();
+        	timer.start();
 	}
 	
 		
